@@ -16,7 +16,7 @@ import java.util.Random;
 public class ComputerService {
 
     private static final Logger logger = LoggerFactory.getLogger(ComputerService.class);
-    private List<Computer> computers = new ArrayList<>();
+    private final List<Computer> computers = new ArrayList<>();
     private static final Random rand = new Random();
 
 
